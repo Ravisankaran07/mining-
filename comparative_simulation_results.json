@@ -1,0 +1,26 @@
+[
+  {
+    "policy":"BASELINE_FIFO",
+    "total_shifts":21,
+    "target_tonnage":3813600.0,
+    "delivered_tonnage":3686450.0,
+    "fulfillment_pct":96.67,
+    "total_overhauls":16,
+    "total_service_cancellations":16,
+    "catastrophic_breakdowns":14,
+    "total_loss_usd":3310000.0,
+    "audit_valid":null
+  },
+  {
+    "policy":"PROPOSED_OPTIMIZER",
+    "total_shifts":21,
+    "target_tonnage":3813600.0,
+    "delivered_tonnage":3711225.0,
+    "fulfillment_pct":97.32,
+    "total_overhauls":12,
+    "total_service_cancellations":3,
+    "catastrophic_breakdowns":16,
+    "total_loss_usd":3095000.0,
+    "audit_valid":true
+  }
+]

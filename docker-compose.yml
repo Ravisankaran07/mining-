@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mining-optimizer:
+    build: .
+    container_name: mining_maintenance_slot_optimizer
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app/src
+    volumes:
+      - ./data:/app/data
+      - ./dispatcher_override_audit.jsonl:/app/dispatcher_override_audit.jsonl
+    restart: unless-stopped

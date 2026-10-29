@@ -1,0 +1,47 @@
+[
+  {
+    "Scenario":"Nominal Harsh Pit - Baseline (FIFO Urgency)",
+    "Maint Scheduled":6,
+    "Service Cancellations":6,
+    "Cancellation Cost ($)":"$2,946,000.00",
+    "Breakdown Risk Cost ($)":"$10,415,436.01",
+    "Combined Cost ($)":"$13,361,436.01",
+    "Status":"High Service Loss"
+  },
+  {
+    "Scenario":"Nominal Harsh Pit - Proposed Multi-Objective",
+    "Maint Scheduled":6,
+    "Service Cancellations":3,
+    "Cancellation Cost ($)":"$1,033,500.00",
+    "Breakdown Risk Cost ($)":"$12,184,416.64",
+    "Combined Cost ($)":"$13,217,916.64",
+    "Status":"Optimized (4 Spares Used)"
+  },
+  {
+    "Scenario":"Edge Case 1: 35% Telemetry Loss (Dust Storm)",
+    "Maint Scheduled":6,
+    "Service Cancellations":5,
+    "Cancellation Cost ($)":"$2,462,812.50",
+    "Breakdown Risk Cost ($)":"$13,616,697.78",
+    "Combined Cost ($)":"$16,079,510.28",
+    "Status":"Degraded Mode Fallback"
+  },
+  {
+    "Scenario":"Edge Case 2: Zero Spare Vehicles Available",
+    "Maint Scheduled":6,
+    "Service Cancellations":6,
+    "Cancellation Cost ($)":"$2,410,125.00",
+    "Breakdown Risk Cost ($)":"$12,184,416.64",
+    "Combined Cost ($)":"$14,594,541.64",
+    "Status":"Zero-Spare Resilience"
+  },
+  {
+    "Scenario":"Edge Case 3: 15-Truck Critical Urgency Surge",
+    "Maint Scheduled":6,
+    "Service Cancellations":3,
+    "Cancellation Cost ($)":"$1,204,625.00",
+    "Breakdown Risk Cost ($)":"$13,833,111.83",
+    "Combined Cost ($)":"$15,037,736.83",
+    "Status":"Workshop Saturation Bottleneck"
+  }
+]
